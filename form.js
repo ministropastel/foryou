@@ -24,9 +24,11 @@ if(!localStorage.getItem('pista')){
     pista.style.display = 'block';
 }
 
-if(total === 0){
+if(total === palabra.length){
     localStorage.setItem('pista', true);
-}
+} else {
+    localStorage.setItem('pista', false);
+}	
 
 pass.addEventListener("keyup", function(){
     const texto = pass.value.toUpperCase();
