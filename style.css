@@ -103,6 +103,11 @@ a,.siguiente{
     border-color: white;
 }
 
+.misiones input{
+    width: 2rem;
+    text-align: center;
+}
+
 @media screen and (max-width: 600px) {
     .todo {
         align-items: center;
