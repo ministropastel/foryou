@@ -126,6 +126,11 @@ a,.siguiente{
     display: none;
 }
 
+.hint input{
+    margin-top: 1rem;
+    width: 22ch;
+}
+
 .misiones input{
     width: calc(3rem + 0.1vw);
     text-align: center;
@@ -135,6 +140,35 @@ a,.siguiente{
 .misiones input:focus{
     border-color: white;
     color: white;
+}
+
+form h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+form input{
+    width: 20ch;
+    text-align: center;
+    margin: 1rem;
+}
+
+main button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+main button:hover{
+    color: white;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {

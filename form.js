@@ -1,7 +1,9 @@
 const palabra = 'KOTXUKIVBIKOEOVXEIÑBKI';
+const traduccion = 'TEGUSTARIATENERUNACITA'
 let total  = 0;
 const cuerpo = document.getElementById('form');
 const pista = document.getElementById('pista');
+const pass = document.getElementById('pass');
 
 if(!localStorage.getItem('pista')){
     for (let i in palabra){
@@ -26,6 +28,9 @@ if(total === 0){
     localStorage.setItem('pista', true);
 }
 
-function copiar(){
-        navigator.clipboard.writeText(texto);
-}
+pass.addEventListener("keyup", function(){
+    const texto = pass.value.toUpperCase();
+    if(texto === traduccion){
+        window.location.href = 'reloj.html';
+    }
+})
