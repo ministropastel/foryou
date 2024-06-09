@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="todo">
+            <div>
+                <h1>Pequeñas historias</h1>
+                <a href="index.html" id="usuario"></a>
+            </div>
+            <div id="misiones" class="panel misiones">
+            </div>
+        </div>
+        <a class="siguiente" href="main.html">Ver tabla</a>
+    </main>
+    <script type="text/javascript">
+        window.onload = function(){
+        document.getElementById('usuario').innerHTML=localStorage.getItem("nombre");
+        const misiones =document.getElementById('misiones');
+        for(let i = 0; i < 22; i++){
+        let a=document.createElement('a');
+        a.innerHTML = i+1;
+        a.dataset.id=i;
+        a.href="historia.html";
+        a.addEventListener('click',function(){
+            localStorage.setItem('historia',i);
+        })
+        misiones.appendChild(a);
+        }
+    }
+    </script>
+</body>
+</html>
