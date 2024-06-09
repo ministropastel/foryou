@@ -110,6 +110,22 @@ a,.siguiente{
     align-items: center;
 }
 
+.misiones input:disabled{
+    border: 0.2rem dashed green;
+}
+
+.hint p{
+    margin-top: 1rem;
+}
+
+.hint h1{
+    cursor: pointer;
+}
+
+.hint{
+    display: none;
+}
+
 .misiones input{
     width: calc(3rem + 0.1vw);
     text-align: center;
