@@ -111,7 +111,7 @@ a,.siguiente{
 }
 
 .misiones input{
-    width: calc(2rem + 00.1vw);
+    width: calc(3rem + 1vw);
     text-align: center;
 }
 
