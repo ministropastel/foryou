@@ -1,10 +1,10 @@
 const story = [
     {
-        titulo: 'Fuck YOU',
-        cuento: '',
+        titulo: 'I ADORE YOU',
+        cuento: 'Esta es una prueba de escritura para la pagina. A continuacion se agregara un lorem: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis, ligula in vehicula posuere, tortor diam venenatis arcu, non fermentum urna risus eu sapien. Phasellus iaculis nibh in mauris vehicula scelerisque. Pellentesque pharetra mi elit, et placerat ligula accumsan eget. Suspendisse efficitur purus ut justo auctor, ac efficitur magna volutpat. Curabitur ultricies nibh id dapibus vulputate. Cras nec nisi varius, dapibus nulla eu, sagittis est. Fusce nec mollis lorem. Vivamus id eros libero. Suspendisse potenti. Cras nec vulputate arcu, in elementum ipsum. Phasellus eu ex ligula. In mauris diam, pretium tempor elementum ac, mollis ut sapien. Morbi sit amet arcu a diam dignissim vehicula ac et augue. Mauris sit amet commodo nunc. Suspendisse rutrum tristique mauris vel fermentum. Proin nec hendrerit sapien. In blandit lorem libero, vel faucibus velit imperdiet in. Mauris molestie, tellus et vestibulum aliquet, elit est posuere arcu, nec semper ex ipsum eget lectus. Donec ut volutpat ante, a pharetra ante. Morbi ut nulla eget eros ullamcorper vehicula. Integer a risus a urna venenatis consectetur. Aenean rutrum quis libero non consequat. Suspendisse et ex diam. Maecenas rutrum sed diam eu dignissim. Donec auctor nisi laoreet augue faucibus, vitae dictum sem ultricies. Pellentesque euismod risus nec ex porttitor, eu ultrices ex elementum. Phasellus fermentum tellus et neque scelerisque porta.',
     },
     {
-        titulo: '',
+        titulo: 'LOREM',
         cuento: '',
     },
     {
